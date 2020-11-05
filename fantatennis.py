@@ -56,7 +56,7 @@ def sparami_il_risultato():
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print('Usage: ./fantatennis.py <FILE_PRONOSTICO> <LINK_TORNEO>')
+        print('Uso: ./fantatennis.py <file pronostico> <link torneo su atptour.com>')
         exit()
 
     __, filename, page = sys.argv
